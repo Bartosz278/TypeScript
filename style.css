@@ -1,5 +1,8 @@
+body{
+    width: 95%;
+}
 #main{
-    width: 300px;
+    width: 95%;
     height: 300px;
     border: 2px solid black;
 }
@@ -18,15 +21,25 @@
     height: 60px;
     margin: auto;
     text-align: center;
-    padding: 10px;
+    /* padding: 10px; */
 
     
 }
 #controls{
     height: 180px;
-    width: 200px;
-    display: flex;
-    justify-content: center;
+    width:192px;
+    /* display: flex; */
+    /* justify-content: center; */
     
 }
+
+#lewo, #dol,#prawo{
+    float: left;
+
+}
+#counter{
+    font-size: 36px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 
